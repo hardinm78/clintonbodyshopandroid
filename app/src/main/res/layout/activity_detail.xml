@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mikehardinapps.clintonbodyshop.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="97dp"
+        android:background="@color/colorPrimaryDark"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo_1200" />
+
+
+    <EditText
+        android:id="@+id/detailText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:text="Our repair experts are thoroughly trained in the use of our equipment and its exacting application in the repair process. Our technicians are PPG certified collision specialists and receive ongoing training from ICAR and ASE (industry certification programs that provide ongoing technical training in the collision repair business). In addition, the manufacturers of our high-tech frame, body repair, and paint systems keep our technicians up to date with new technology and use of their equipment and materials.\n\nOne Stop Shop\nWe are a one stop full service shop.We offer frame straightening, unibody alignment, minor to major refinish work including all-over paint jobs and custom paint.\n\nUse Quality Parts\nTo repair your car to the best of our ability utilizing the most highly respected brand of equipment and materials available to our industry.\n\nTrain Employees\nTo make training of everyone involved in the service process be an ongoing positive part of their job at Clinton Body Shop.\n\nRespect Customers\nTo treat you with the same respect we would expect at a business.\n\nMaintain Relationships\nTo maintain a positive relationship with the customer and the insurance company so that we can provide the level of quality in our repairs your car deserves and for which we are known.\n\nMinimize Downtime\nTo minimize the down time on your car by making repairs right the first time.  We know you don’t have time to have the same job done twice.\n\nHelp Our Community\nTo be good business citizens and help our community as much as possible."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Our repair experts are thoroughly trained in the use of our equipment and its exacting application in the repair process. Our technicians are PPG certified collision specialists and receive ongoing training from ICAR and ASE (industry certification programs that provide ongoing technical training in the collision repair business). In addition, the manufacturers of our high-tech frame, body repair, and paint systems keep our technicians up to date with new technology and use of their equipment and materials.\n\nOne Stop Shop\nWe are a one stop full service shop.We offer frame straightening, unibody alignment, minor to major refinish work including all-over paint jobs and custom paint.\n\nUse Quality Parts\nTo repair your car to the best of our ability utilizing the most highly respected brand of equipment and materials available to our industry.\n\nTrain Employees\nTo make training of everyone involved in the service process be an ongoing positive part of their job at Clinton Body Shop.\n\nRespect Customers\nTo treat you with the same respect we would expect at a business.\n\nMaintain Relationships\nTo maintain a positive relationship with the customer and the insurance company so that we can provide the level of quality in our repairs your car deserves and for which we are known.\n\nMinimize Downtime\nTo minimize the down time on your car by making repairs right the first time.  We know you don’t have time to have the same job done twice.\n\nHelp Our Community\nTo be good business citizens and help our community as much as possible." />
+
+</android.support.constraint.ConstraintLayout>
